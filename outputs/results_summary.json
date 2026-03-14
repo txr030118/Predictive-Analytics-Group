@@ -1,0 +1,85 @@
+{
+  "best_model": "Hist Gradient Boosting",
+  "cv_results": {
+    "Logistic Regression": {
+      "ROC-AUC": 0.9099,
+      "ROC-AUC std": 0.0029,
+      "PR-AUC": 0.8736,
+      "F1": 0.7688
+    },
+    "Random Forest": {
+      "ROC-AUC": 0.9363,
+      "ROC-AUC std": 0.0013,
+      "PR-AUC": 0.9099,
+      "F1": 0.8091
+    },
+    "Hist Gradient Boosting": {
+      "ROC-AUC": 0.9482,
+      "ROC-AUC std": 0.0012,
+      "PR-AUC": 0.9236,
+      "F1": 0.8241
+    }
+  },
+  "test_results": {
+    "Logistic Regression": {
+      "ROC-AUC": 0.8594,
+      "PR-AUC": 0.8233,
+      "F1 (macro)": 0.7289,
+      "F1 (cancel)": 0.7283
+    },
+    "Random Forest": {
+      "ROC-AUC": 0.8711,
+      "PR-AUC": 0.8317,
+      "F1 (macro)": 0.7682,
+      "F1 (cancel)": 0.7101
+    },
+    "Hist Gradient Boosting": {
+      "ROC-AUC": 0.8828,
+      "PR-AUC": 0.8451,
+      "F1 (macro)": 0.7785,
+      "F1 (cancel)": 0.7274
+    }
+  },
+  "top_features": [
+    {
+      "feature": "deposit_type_Non Refund",
+      "importance_mean": 0.06579084832060614
+    },
+    {
+      "feature": "market_segment_Online TA",
+      "importance_mean": 0.06274799521292199
+    },
+    {
+      "feature": "country_PRT",
+      "importance_mean": 0.06264703656631526
+    },
+    {
+      "feature": "total_of_special_requests",
+      "importance_mean": 0.039889321974228134
+    },
+    {
+      "feature": "lead_time",
+      "importance_mean": 0.039306607784248035
+    },
+    {
+      "feature": "required_car_parking_spaces",
+      "importance_mean": 0.03639812595725448
+    },
+    {
+      "feature": "room_changed",
+      "importance_mean": 0.015030216245371663
+    },
+    {
+      "feature": "customer_type_Transient",
+      "importance_mean": 0.010268147965433827
+    },
+    {
+      "feature": "booking_changes",
+      "importance_mean": 0.00870711440438302
+    },
+    {
+      "feature": "previous_bookings_not_canceled",
+      "importance_mean": 0.004751716924831051
+    }
+  ]
+}
